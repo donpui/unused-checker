@@ -1,0 +1,28 @@
+{
+  "name": "unused-checker",
+  "version": "0.1.0",
+  "description": "Simple CLI to find unused image assets in web app projects.",
+  "type": "module",
+  "bin": {
+    "unused-checker": "./src/cli.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "unused",
+    "images",
+    "assets",
+    "cli",
+    "javascript",
+    "typescript",
+    "react"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
